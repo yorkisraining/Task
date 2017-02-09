@@ -1,0 +1,304 @@
+.title {
+	width: 100%;
+	height: 361px;
+	background-color: #ededed;
+	position: relative;
+}
+
+.title-icon {
+	position: absolute;
+	font-size: 120px;
+	top: 20%;
+	left: 47%;
+}
+
+.title p {
+	position: absolute;
+	top: 65%;
+	left: 15%;
+	font-size: 50px;
+	font-family: "黑体";
+	color: #767777;
+}
+
+.history-contect {
+	width: 100%;
+	height: 600px;
+	position: relative;
+	background-color: #f7f7f7;
+}
+
+.history-contect-wrap {
+	width: 860px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding-top: 100px;
+}
+
+.hist-box {
+	position: relative;
+	float: left;
+	height: 380px;
+}
+
+.hist-box-pic {
+	height: 312px;
+	width: 202px;
+	padding: 10px;
+	border: 1px solid #e1e1e1;
+	background-color: #fff;
+	margin-left: 60px;
+}
+
+.annotation {
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 14px;
+	position: absolute;
+	color: #4c4c4d;
+	text-align: center;
+	left: 145px;
+	bottom: 10px;
+}
+
+.hist-box.Establishment {
+	margin-top: 40px;
+}
+
+.Establishment .annotation {
+	top: -30px;
+	left: 125px;
+	height: 10px;
+}
+
+.time, .new-world {
+	width: 100%;
+	height: 570px;
+	background: #fff;
+}
+
+.time-img, .new-world-img {
+	display: inline-block;
+	width: 850px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.time-img img, .new-world-img img {
+	width: 850px;
+	height: 100%;
+}
+
+.time-img-word {
+	font-family: "微软雅黑";
+	color: #fff;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	text-align: center;
+}
+
+.time-img-word01 {
+	font-size: 158px;
+}
+
+.time-img-word02 {
+	font-size: 21px;
+	line-height: 1.5em;
+}
+
+.time-img-triangle, .new-world-triangle {
+	width: 0;
+	height: 0;
+	border-right: 30px solid #fff;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 50%;
+	right: 0;
+}
+
+.time-word, .new-world-word {
+	float: right;
+	position: relative;
+	height: 300px;
+	padding-top: 160px;
+	padding-right: 70px;
+	font-family: "微软雅黑";
+	text-align: center;
+}
+
+.time-word01, .new-world-word01 {
+	font-size: 24px;
+}
+
+.time-word01 span, .new-world-word01 span {
+	color: #E74F4D;
+}
+
+.time-word02, .new-world-word02 {
+	width: 370px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #aaa;
+	line-height: 3em;
+	letter-spacing: 1px;
+	word-break: break-word;
+	text-align: center;
+}
+
+.time-more, .new-world-more {
+	margin-top: 20px;
+	border: 1px solid #E74F4D;
+	width: 98px;
+	height: 35px;
+	background-color: #fff;
+	color: #E74F4D;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.hidden {
+	display: none;
+	position: absolute;
+	background: #EEE;
+	font-family: "微软雅黑";
+	line-height: 2em;
+	color: #11456B;
+	font-size: 14px;
+	letter-spacing: 1px;
+	box-shadow: 3px 3px 5px #767777;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.hidden .iconfont {
+	float: right;
+	color: #11456B;
+	cursor: pointer;
+}
+
+.time-all {
+	width: 400px;
+	top: 15%;
+	left: -3%;
+}
+
+.newworld-all {
+	font-size: 12px;
+	width: 1000px;
+	top: 30px;
+	left: -145%;
+}
+
+.time-all h2, .newworld-all h2 {
+	font-size: 30px;
+	padding: 10px;
+}
+
+button {
+	cursor: pointer;
+}
+
+.new-life {
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.new-life-colounm {
+	width: 425px;
+	float: left;
+	height: 521px;
+	overflow: hidden;
+	position: relative;
+}
+
+.new-life-morer {
+	background-color: #E74F4D;
+}
+
+.new-life-p {
+	position: absolute;
+	top: 160px;
+	left: 120px;
+	text-align: center;
+	font-family: "黑体";
+	font-size: 21px;
+	line-height: 1.5em;
+}
+
+.new-life-p span {
+	display: block;
+	width: 31px;
+	margin: 15px 66px;
+	border-radius: 2px;
+}
+
+.new-life-p button {
+	width: 170px;
+	height: 44px;
+	border-radius: 2px;
+}
+
+.newlife-all {
+	width: 350px;
+	line-height: 1.3em;
+	left: -90px;
+}
+
+.new-life01{
+	background: #fff;
+	top: -145px;
+}
+
+.new-life02 {
+	background: #E74F4D;
+	top: -25%;
+}
+
+.new-life-morer span {
+	border: 2px solid #fff;
+}
+
+.new-life-morer .new-life-p {
+	color: #fff;
+}
+
+.new-life-morer button {
+	color: #fff;
+	border: 1px solid #fff;
+	background: #E74F4D;
+}
+
+.new-life-morew span {
+	border: 2px solid #E74F4D;
+}
+
+.new-life-morew .new-life-p {
+	color: #E74F4D;
+}
+
+.new-life-morew button {
+	color: #E74F4D;
+	border: 1px solid #E74F4D;
+	background: #fff;
+}
+
+.new-life-pic {
+	height: 521px;
+	width: auto;
+	overflow: hidden;
+}
+
+.new-life-triangle {
+	width: 0;
+	height: 0;
+	border-left: 30px solid #fff;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 50%;
+}

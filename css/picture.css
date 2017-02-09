@@ -1,0 +1,68 @@
+.video {
+	height: 500px;
+	width: 100%;
+	position: relative;
+	padding: 0 20px;
+}
+
+.video-player {
+	float: left;
+	display: inline-block;
+}
+
+.video-word {
+	float: left;
+	display: inline-block;
+	text-align: center;
+}
+
+.video-word-wrap {
+	width: 350px;
+	position: relative;
+	padding-top: 100px;
+	left: 40%;
+	line-height: 2em;
+	font-family: "微软雅黑";
+}
+
+.video-word h2 {
+	color: #11456B;
+	font-size: 30px;
+	padding-bottom: 20px;
+}
+
+.video-word span {
+	float: left;
+	font-size: 40px;
+	line-height: 1.5em;
+	color: rgba(255,255,47,0.9)
+}
+
+.picture-waterfall {
+	position: relative;
+}
+
+.box {
+	padding: 15px 0 0 15px;
+	float: left;
+}
+
+.box img {
+	display: block;
+	width: 180px;
+	height: auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-shadow: 0 0 5px #ccc;
+	border-radius: 5px;
+}
+
+.contactUs {
+	position: absolute;
+	bottom: 0;
+}
+
+#foot {
+	position: absolute;
+	bottom: 0;
+}

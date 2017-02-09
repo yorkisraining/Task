@@ -1,0 +1,197 @@
+/*全局*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	min-width: 1280px;
+}
+
+li {
+	list-style: none;
+}
+
+@font-face {
+	font-family: 'iconfont';
+    src: url('../icon/iconfont.eot'); /* IE9*/
+    src: url('../icon/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../icon/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../icon/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../icon/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    color: #fff;
+}
+
+.wrap {
+	width: 100%;
+	position: relative;
+}
+
+/*头部导航*/
+.top {
+	width: 100%;
+	height: 55px;
+	background-color: #fff;
+	position: relative;
+	margin-bottom: 2px;
+}
+
+.top-logo {
+	display: inline-block;
+	width: 200px;
+}
+
+.top-logo img {
+	position: relative;
+	width: 200px;
+	height: 60px;
+	left: 90px;
+}
+
+.top-icon {
+	font-size: 40px;
+}
+
+.top-nav {
+	float: right;
+	margin-right: 50px;
+}
+
+.top-nav-li {
+	float: left;
+}
+
+.top-nav-li a {
+	display: block;
+	text-decoration: none;
+	color: #767777;
+	line-height: 55px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	width: 60px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.top-nav-li .current {
+	color: #e74f4d;
+	border-bottom: 4px solid #e74f4d;
+}
+
+.top-nav-li.onload a{
+	color: #e74f4d;
+}
+
+.contactUs {
+	width: 100%;
+	height: 361px;
+	background-color: #32353e;
+	overflow: hidden;
+}
+
+.contactUs-wrap {
+	width: 511px;
+	margin: 0 auto;
+	padding-top: 92px;
+	text-align: center;
+	color: #fff;
+}
+
+.contactUs h2 {
+	font-family: "黑体";
+	font-size: 21px;
+	line-height: 40px;
+}
+
+.contactUs p {
+	font-size: 12px;
+	font-family: arial;
+	line-height: 18px;
+}
+
+.submit-email {
+	padding: 30px 0;
+}
+
+.email-input {
+	float: left;
+	width: 411px;
+	border: none;
+	height: 41px;
+	background: #fff;
+	opacity: 0.8;
+	outline: none;
+	padding: 0 10px;
+}
+
+.submit-input {
+	float: left;
+	width: 72px;
+	border: none;
+	height: 41px;
+	background: #6f7178;
+	color: #fff;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+.contactUs-social {
+	position: relative;
+	left: 15%;
+	margin-top: 20px;
+}
+
+.contactUs-social-list {
+	float: left;
+	width: 25px;
+	margin-right: 26px;
+}
+
+.contactUs-social .iconfont {
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.foot {
+	width: 100%;
+	height: 58px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	background-color: #303039;
+	line-height: 58px;
+	position: relative;
+}
+
+.copy {
+	color: #fff;
+	float: left;
+	margin-left: 100px;
+}
+
+.anchor {
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	margin-right: 100px;
+}
+
+.foot .iconfont {
+	margin-left: 5px;
+}
+
+.iconfont-top {
+	position: absolute;
+	right: 80px;
+}
+
+button {
+	outline: none;
+}

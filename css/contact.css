@@ -1,0 +1,51 @@
+.advice {
+	position: relative;
+	height: 350px;
+	width: 660px;
+	font-size: 12px;
+	margin: 70px auto;
+	font-family: "微软雅黑";	
+}
+
+.advice p {
+	font-size: 16px;
+	width: 400px;
+	margin: 20px auto;
+	text-align: center;
+	color: #11456B;
+	line-height: 1.5em;
+}
+
+.advice input {
+	width: 281px;
+	height: 21px;
+	background: #EDEDED;
+	border: none;
+	margin-bottom: 13px;
+	margin-left: 15px;
+	padding: 10px 15px;
+}
+
+.advice textarea {
+	font-family: "微软雅黑";
+	width: 614px;
+	height: 101px;
+	background: #EDEDED;
+	border: none;
+	margin-left: 15px;
+	margin-bottom: 13px;
+	resize: none;
+	padding: 10px 15px;
+}
+
+.advice button {
+	width: 644px;
+	height: 41px;
+	background: #EDEDED;
+	border: none;
+	margin-left: 15px;
+	color: #323333;
+	font-size: 14px;
+	font-family: "黑体";
+	cursor: pointer;
+}
